@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
 
 import 'constants/app_styles.dart';
 import 'constants/app_text.dart';
+import 'firebase_options.dart';
 import 'screens/auth/auth_flow_placeholder_screen.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   runApp(const HeroCartApp());
 }
 
