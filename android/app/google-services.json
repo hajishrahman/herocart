@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "103874431862",
+    "project_id": "herocart111h",
+    "storage_bucket": "herocart111h.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103874431862:android:369962464f62891f488857",
+        "android_client_info": {
+          "package_name": "com.example.herocart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy4y4iNYC6NpSZc124zF-FMM4EWtU80L4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
